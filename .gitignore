@@ -1,0 +1,12 @@
+# exclude all the files in the node_modules
+node_modules/**/*.*
+
+# exclude all the file *.js, *.js.map
+src/app/**/*.js
+*.js.map
+
+# exclude files special
+node_modules/@angular/cdk/LICENSE
+node_modules/@angular/material/LICENSE
+node_modules/rxjs/src/WORKSPACE
+node_modules/symbol-observable/license
